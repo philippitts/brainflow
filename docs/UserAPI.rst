@@ -147,7 +147,7 @@ Since Julia is not Object-Oriented language, there is no DataFilter class. Board
 
 Example:
 
-.. literalinclude:: ../julia-package/brainflow/test/serialization.jl
+.. literalinclude:: ../julia-package/brainflow/examples/serialization.jl
    :language: julia
 
 Rust API Reference

@@ -39,7 +39,7 @@ include (${CMAKE_HOME_DIRECTORY}/src/board_controller/build.cmake)
 include (${CMAKE_HOME_DIRECTORY}/src/data_handler/build.cmake)
 include (${CMAKE_HOME_DIRECTORY}/src/ml/build.cmake)
 include (${CMAKE_HOME_DIRECTORY}/cpp-package/build.cmake)
-include (${CMAKE_HOME_DIRECTORY}/tests/cpp/build.cmake)
+include (${CMAKE_HOME_DIRECTORY}/tests/build.cmake)
 
 include (CMakePackageConfigHelpers)
 

@@ -11,7 +11,7 @@ assignees: Andrey1994
 A clear and concise description of what the bug is.
 
 **To Reproduce**
-To report a bug you need to create a simple example that uses only BrainFlow API or use one of the tests we already have.  In this example, you need to call `enable_dev_board_logger ()` and share the output with us. Also, make sure the latest version is used. 
+To report a bug you need to create a simple example that only uses the BrainFlow API or uses one of the examples we already have.  In this example, you need to call `enable_dev_board_logger ()` and share the output with us. Also, make sure the latest version is used. 
 
 **Info (please complete the following information):**
  - Board Id 

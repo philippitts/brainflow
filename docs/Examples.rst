@@ -22,61 +22,61 @@ BrainFlow doesn't use these packages and doesn't install them, but the packages 
 Python Get Data from a Board
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-.. literalinclude:: ../tests/python/brainflow_get_data.py
+.. literalinclude:: ../examples/python/brainflow_get_data.py
    :language: py
 
 Python Markers
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-.. literalinclude:: ../tests/python/markers.py
+.. literalinclude:: ../examples/python/markers.py
    :language: py
 
 Python Read Write File
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-.. literalinclude:: ../tests/python/serialization.py
+.. literalinclude:: ../examples/python/serialization.py
    :language: py
 
 Python Downsample Data
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-.. literalinclude:: ../tests/python/downsampling.py
+.. literalinclude:: ../examples/python/downsampling.py
    :language: py
 
 Python Transforms
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-.. literalinclude:: ../tests/python/transforms.py
+.. literalinclude:: ../examples/python/transforms.py
    :language: py
 
 Python Signal Filtering
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-.. literalinclude:: ../tests/python/signal_filtering.py
+.. literalinclude:: ../examples/python/signal_filtering.py
    :language: py
 
 Python Denoising
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-.. literalinclude:: ../tests/python/denoising.py
+.. literalinclude:: ../examples/python/denoising.py
    :language: py
 
 Python MNE Integration
 ~~~~~~~~~~~~~~~~~~~~~~~~
 
-.. literalinclude:: ../tests/python/brainflow_to_mne.py
+.. literalinclude:: ../examples/python/brainflow_to_mne.py
    :language: py
 
 Python Band Power
 ~~~~~~~~~~~~~~~~~~~~~~~~
 
-.. literalinclude:: ../tests/python/band_power.py
+.. literalinclude:: ../examples/python/band_power.py
    :language: py
 
 Python EEG Metrics
 ~~~~~~~~~~~~~~~~~~~~~~~~
 
-.. literalinclude:: ../tests/python/eeg_metrics.py
+.. literalinclude:: ../examples/python/eeg_metrics.py
    :language: py
 
 Python Real Time Plot
@@ -148,55 +148,55 @@ C#
 C# Read Data from a Board
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-.. literalinclude:: ../csharp-package/brainflow/tests/brainflow_get_data/brainflow_get_data.cs
+.. literalinclude:: ../csharp-package/brainflow/examples/brainflow_get_data/brainflow_get_data.cs
    :language: c#
 
 C# Markers
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-.. literalinclude:: ../csharp-package/brainflow/tests/markers/markers.cs
+.. literalinclude:: ../csharp-package/brainflow/examples/markers/markers.cs
    :language: c#
 
 C# Read Write File
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-.. literalinclude:: ../csharp-package/brainflow/tests/serialization/serialization.cs
+.. literalinclude:: ../csharp-package/brainflow/examples/serialization/serialization.cs
    :language: c#
 
 C# Downsample Data
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-.. literalinclude:: ../csharp-package/brainflow/tests/downsampling/downsampling.cs
+.. literalinclude:: ../csharp-package/brainflow/examples/downsampling/downsampling.cs
    :language: c#
 
 C# Transforms
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-.. literalinclude:: ../csharp-package/brainflow/tests/transforms/transforms.cs
+.. literalinclude:: ../csharp-package/brainflow/examples/transforms/transforms.cs
    :language: c#
 
 C# Signal Filtering
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-.. literalinclude:: ../csharp-package/brainflow/tests/signal_filtering/signal_filtering.cs
+.. literalinclude:: ../csharp-package/brainflow/examples/signal_filtering/signal_filtering.cs
    :language: c#
 
 C# Denoising
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-.. literalinclude:: ../csharp-package/brainflow/tests/denoising/denoising.cs
+.. literalinclude:: ../csharp-package/brainflow/examples/denoising/denoising.cs
    :language: c#
 
 C# Band Power
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-.. literalinclude:: ../csharp-package/brainflow/tests/band_power/band_power.cs
+.. literalinclude:: ../csharp-package/brainflow/examples/band_power/band_power.cs
    :language: c#
 
 C# EEG Metrics
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-.. literalinclude:: ../csharp-package/brainflow/tests/eeg_metrics/eeg_metrics.cs
+.. literalinclude:: ../csharp-package/brainflow/examples/eeg_metrics/eeg_metrics.cs
    :language: c#
 
 C++
@@ -206,7 +206,7 @@ C++
 
    To compile examples below for Linux or MacOS run: ::
 
-      cd tests/cpp/demos/get_data_demo
+      cd examples/cpp/get_data_demo
       mkdir build
       cd build
       cmake -DCMAKE_PREFIX_PATH=TYPE_FULL_PATH_TO_BRAINFLOW_INSTALLED_FOLDER ..
@@ -224,61 +224,61 @@ For Windows it's almost the same.
 CMake File Example
 ~~~~~~~~~~~~~~~~~~~~~
 
-.. literalinclude:: ../tests/cpp/demos/get_data_demo/CMakeLists.txt
+.. literalinclude:: ../examples/cpp/get_data_demo/CMakeLists.txt
    :language: none
 
 C++ Read Data from a Board
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-.. literalinclude:: ../tests/cpp/demos/get_data_demo/src/brainflow_get_data.cpp
+.. literalinclude:: ../examples/cpp/get_data_demo/src/brainflow_get_data.cpp
    :language: cpp
 
 C++ Markers
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-.. literalinclude:: ../tests/cpp/demos/get_data_demo/src/markers.cpp
+.. literalinclude:: ../examples/cpp/get_data_demo/src/markers.cpp
    :language: cpp
 
 C++ Read Write File
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-.. literalinclude:: ../tests/cpp/demos/signal_processing_demo/src/serialization.cpp
+.. literalinclude:: ../examples/cpp/signal_processing_demo/src/serialization.cpp
    :language: cpp
 
 C++ Downsample Data
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-.. literalinclude:: ../tests/cpp/demos/signal_processing_demo/src/downsampling.cpp
+.. literalinclude:: ../examples/cpp/signal_processing_demo/src/downsampling.cpp
    :language: cpp
 
 C++ Transforms
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-.. literalinclude:: ../tests/cpp/demos/signal_processing_demo/src/transforms.cpp
+.. literalinclude:: ../examples/cpp/signal_processing_demo/src/transforms.cpp
    :language: cpp
 
 C++ Signal Filtering
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-.. literalinclude:: ../tests/cpp/demos/signal_processing_demo/src/signal_filtering.cpp
+.. literalinclude:: ../examples/cpp/signal_processing_demo/src/signal_filtering.cpp
    :language: cpp
 
 C++ Denoising
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-.. literalinclude:: ../tests/cpp/demos/signal_processing_demo/src/denoising.cpp
+.. literalinclude:: ../examples/cpp/signal_processing_demo/src/denoising.cpp
    :language: cpp
 
 C++ Band Power
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-.. literalinclude:: ../tests/cpp/demos/signal_processing_demo/src/band_power.cpp
+.. literalinclude:: ../examples/cpp/signal_processing_demo/src/band_power.cpp
    :language: cpp
 
 C++ EEG Metrics
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-.. literalinclude:: ../tests/cpp/demos/ml_demo/src/eeg_metrics.cpp
+.. literalinclude:: ../examples/cpp/ml_demo/src/eeg_metrics.cpp
    :language: cpp
 
 R
@@ -287,49 +287,49 @@ R
 R Get Data from a Board
 ~~~~~~~~~~~~~~~~~~~~~~~~~
 
-.. literalinclude:: ../tests/r/brainflow_get_data.R
+.. literalinclude:: ../examples/r/brainflow_get_data.R
    :language: r
 
 R Get Data from a Board
 ~~~~~~~~~~~~~~~~~~~~~~~~~
 
-.. literalinclude:: ../tests/r/markers.R
+.. literalinclude:: ../examples/r/markers.R
    :language: r
 
 R Read Write File
 ~~~~~~~~~~~~~~~~~~~
 
-.. literalinclude:: ../tests/r/serialization.R
+.. literalinclude:: ../examples/r/serialization.R
    :language: r
 
 R Transforms
 ~~~~~~~~~~~~~
 
-.. literalinclude:: ../tests/r/transforms.R
+.. literalinclude:: ../examples/r/transforms.R
    :language: r
 
 R Signal Filtering
 ~~~~~~~~~~~~~~~~~~~
 
-.. literalinclude:: ../tests/r/signal_filtering.R
+.. literalinclude:: ../examples/r/signal_filtering.R
    :language: r
 
 R Denoising
 ~~~~~~~~~~~~~
 
-.. literalinclude:: ../tests/r/denoising.R
+.. literalinclude:: ../examples/r/denoising.R
    :language: r
 
 R Band Power
 ~~~~~~~~~~~~~
 
-.. literalinclude:: ../tests/r/band_power.R
+.. literalinclude:: ../examples/r/band_power.R
    :language: r
 
 R EEG Metrics
 ~~~~~~~~~~~~~~
 
-.. literalinclude:: ../tests/r/eeg_metrics.R
+.. literalinclude:: ../examples/r/eeg_metrics.R
    :language: r
 
 Matlab
@@ -389,49 +389,49 @@ Julia
 Julia Get Data from a Board
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-.. literalinclude:: ../julia-package/brainflow/test/brainflow_get_data.jl
+.. literalinclude:: ../julia-package/brainflow/examples/brainflow_get_data.jl
    :language: julia
 
 Julia Markers
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-.. literalinclude:: ../julia-package/brainflow/test/markers.jl
+.. literalinclude:: ../julia-package/brainflow/examples/markers.jl
    :language: julia
 
 Julia Read Write File
 ~~~~~~~~~~~~~~~~~~~~~~~~
 
-.. literalinclude:: ../julia-package/brainflow/test/serialization.jl
+.. literalinclude:: ../julia-package/brainflow/examples/serialization.jl
    :language: julia
 
 Julia Transforms
 ~~~~~~~~~~~~~~~~~~
 
-.. literalinclude:: ../julia-package/brainflow/test/transforms.jl
+.. literalinclude:: ../julia-package/brainflow/examples/transforms.jl
    :language: julia
 
 Julia Signal Filtering
 ~~~~~~~~~~~~~~~~~~~~~~~~~
 
-.. literalinclude:: ../julia-package/brainflow/test/signal_filtering.jl
+.. literalinclude:: ../julia-package/brainflow/examples/signal_filtering.jl
    :language: julia
 
 Julia Denoising
 ~~~~~~~~~~~~~~~~~
 
-.. literalinclude:: ../julia-package/brainflow/test/denoising.jl
+.. literalinclude:: ../julia-package/brainflow/examples/denoising.jl
    :language: julia
 
 Julia Band Power
 ~~~~~~~~~~~~~~~~~
 
-.. literalinclude:: ../julia-package/brainflow/test/band_power.jl
+.. literalinclude:: ../julia-package/brainflow/examples/band_power.jl
    :language: julia
 
 Julia EEG Metrics
 ~~~~~~~~~~~~~~~~~
 
-.. literalinclude:: ../julia-package/brainflow/test/eeg_metrics.jl
+.. literalinclude:: ../julia-package/brainflow/examples/eeg_metrics.jl
    :language: julia
 
 Rust
